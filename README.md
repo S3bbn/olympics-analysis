@@ -75,30 +75,33 @@ Puis nous irons plus loin en analysant :
 
 ---
 
-## 📌 État d’avancement
+## État d’avancement
 - [x] Nettoyage et préparation des données en Python
 - [x] Création de la base SQLite et nettoyage via SQL
-- [ ] Visualisations finales dans Power BI
-- [ ] Documentation complète du projet
+- [x] Visualisations finales dans Power BI
+- [x] Documentation complète du projetn (PDF)
 - [ ] Ajout des captures d’écran et insights Power BI
 
 ---
 
-## 📂 Structure du dépôt
+## Structure du dépôt
 ```
 .
 ├── data/               # CSV et fichiers sources
-├── scripts/            # Scripts Python et SQL
-├── docs/               # README, captures Power BI
-├── JO - Athletes - 1896 - 2016.py
-├── noc_regions.xlsx
-├── olympics_cleanV2.csv
-└── JO.sqlite
+   ├── JO.rar (SQLlite)
+   ├── athlete_events.csv.rar (CSV d'origine)
+   ├── noc_regions.csv.zip (CSV d'origine)
+   ├── olympics_VD.zip (CSV après script Python + SQL ; utilisé sur Power BI)
+├── scripts/            # Scripts Python
+   ├── JO - Athletes - 1896 - 2016.py
+├── README
+└── Analyse complète.pdf
+
 ```
 
 ---
 
-## 🚀 Instructions pour exécuter le projet
+## Instructions pour exécuter le projet
 1. **Cloner le dépôt**
    ```bash
    git clone https://github.com/votre-utilisateur/olympics-analysis.git
@@ -112,7 +115,7 @@ Puis nous irons plus loin en analysant :
    python "scripts/JO - Athletes - 1896 - 2016.py"
    ```
 4. **Explorer la base SQLite**
-   - Ouvrir `JO.sqlite` avec [DB Browser for SQLite](https://sqlitebrowser.org/) ou un autre outil compatible
+   - Ouvrir la base `JO.sqlite` 
 
 ---
 
@@ -123,5 +126,4 @@ Puis nous irons plus loin en analysant :
 ---
 
 ## Contact
-Projet réalisé par Sébastien BONNIN – En recherche d’alternance Data Analyst  
-📍 Rennes / Paris – 📅 Disponibilité : Immédiate
+Projet en cours réalisé par Sébastien BONNIN – En recherche d’alternance Data Analyst  
