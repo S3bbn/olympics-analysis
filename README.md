@@ -72,8 +72,27 @@ $${\color{green}work \space in\space  progress}$$
 ## Power BI
 - Traduction des noms de pays  _(étape à refaire en amont sur python)_
 - Graphiques :
-  - Nombre d’athlètes en fonction des années
- ![Evolution du nombre d'athètes](file:///C:/Users/Sebas/Pictures/Screenshots/Capture%20d'%C3%A9cran%202025-08-15%20144511.png "Titre de l'image")
+   - Nombre d’athlètes en fonction des années
+ <img width="1436" height="804" alt="Capture d'écran 2025-08-15 144511" src="https://github.com/user-attachments/assets/e6cdbc2f-0f91-4bf4-85fd-da9214734c3b" />
+
+ 
+      - Nombre de pays participants en fonction des années 
+ <img width="1287" height="727" alt="Capture d'écran 2025-08-15 150800" src="https://github.com/user-attachments/assets/90bda7e2-28c8-4ccd-8b90-1b37a6d5ab96" />
+
+ 
+      - Evolution de la place de la femme au cœur des Jeux Olympiques 
+<img width="1283" height="724" alt="Capture d'écran 2025-08-15 152122" src="https://github.com/user-attachments/assets/d85ab31e-ad46-435c-ad7f-9bbe03df0bcf" />
+
+
+      - Nombre de médaille d’OR remportées par pays
+<img width="1297" height="730" alt="Capture d'écran 2025-08-15 155820" src="https://github.com/user-attachments/assets/ddc66aa3-708d-485d-9df3-030ca52f1b71" />
+
+
+      - Tableau total de médailles / pays
+<img width="1295" height="735" alt="Capture d'écran 2025-08-15 160503" src="https://github.com/user-attachments/assets/0d0cfdf2-b2f5-41ba-8652-66b668a47238" />
+
+
+
 
 
 ---
@@ -82,14 +101,13 @@ $${\color{green}work \space in\space  progress}$$
 - [x] Nettoyage et préparation des données en Python
 - [x] Création de la base SQLite et nettoyage via SQL
 - [x] Visualisations finales dans Power BI
-- [x] Documentation complète du projetn (PDF)
-- [ ] Ajout des captures d’écran et insights Power BI
-
+- [x] Documentation complète du projet (PDF)
+- [x] Ajout des captures d’écran et insights Power BI
+- [ ] Work in progress
 ---
 
 ## Structure du dépôt
 ```
-.
 ├── data/               # CSV et fichiers sources
    ├── JO.rar (SQLlite)
    ├── athlete_events.csv.rar (CSV d'origine)
@@ -102,26 +120,6 @@ $${\color{green}work \space in\space  progress}$$
 
 ```
 
----
-
-## Instructions pour exécuter le projet
-1. **Cloner le dépôt**
-   ```bash
-   git clone https://github.com/votre-utilisateur/olympics-analysis.git
-   ```
-2. **Installer les dépendances**
-   ```bash
-   pip install pandas numpy
-   ```
-3. **Lancer le script Python**
-   ```bash
-   python "scripts/JO - Athletes - 1896 - 2016.py"
-   ```
-4. **Explorer la base SQLite**
-   - Ouvrir la base `JO.sqlite` 
-
----
-
 ## Sources
 - Dataset Kaggle : [120 years of Olympic history](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results)
 - Données originales : [sports-reference.com](https://www.sports-reference.com)
@@ -129,4 +127,4 @@ $${\color{green}work \space in\space  progress}$$
 ---
 
 ## Contact
-Projet en cours réalisé par Sébastien BONNIN – En recherche d’alternance Data Analyst  
+Projet en cours réalisé par Sébastien BONNIN – En recherche d’alternance Data Analyst - sebastienbonnin@hotmail.fr
